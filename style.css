@@ -1,0 +1,143 @@
+ * {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ header{
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 1px 29px 0px;
+ }
+
+ .headerTop {
+    height: 80px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .inputPesquisa {
+    width: 250px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('assets/search.svg');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    background-size: 22px;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+ }
+
+ .inputPesquisa:focus {
+    width: 80%;
+ }
+
+ .iconCarrinho {
+    margin-right: 20px;
+    cursor: pointer;
+ }
+
+ .logo {
+    margin-left: 20px;
+ }
+
+ nav {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ nav li {
+    list-style-type: none;
+ }
+
+ nav li a {
+    color: grey;
+    text-decoration: none;
+    font-size: 20px;
+    transition: font-weight 0.2s;
+ }
+
+ nav li a:hover {
+    font-weight: bold;
+ }
+
+ .cardapio{
+   margin: 15px;
+ }
+
+ .cardapio h1{
+   color: grey;
+   border: black;
+ }
+
+ .produtos{
+   display: flex;
+   justify-content: flex-start;
+   flex-wrap: wrap;
+  
+}
+
+.produto{
+   align-items: center;
+   display: flex;
+   width: 380px;
+   height: 160px;
+   margin: 20px;
+   border: 1px solid rgb(175, 175, 175);
+   border-radius: 20px;
+   cursor: pointer;
+}
+
+.backgroundProduto {
+   width: 50%;
+   height: 100%;
+   border-radius: 0px 20px 20px 0px;
+}
+
+.backgroundProduto img{
+   border-radius: 0px 20px 20px 0px;
+   height: 100%;
+   width: 100%;
+}
+
+.produtoDesc{
+   margin-left: 10px;
+   margin-top: 10px;
+   width: 50%;
+   height: 100%;
+}
+.produtoDesc h1{
+   font-size: 18px;
+}
+.produtoDesc p{
+   margin-top: 20px;
+   font-size: 12px;
+}
+.main-footer {
+   margin-top: 30px;
+   background-color: #35353b;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   color: white;
+   padding: 20px;
+   box-shadow: 0px -15px 20px rgba(41, 49, 56, 0.45);
+}
+.h1-footer {
+   align-items: center;
+   text-align: center;
+   font-size: 16px;
+}
+
+.footer-icons {
+   margin-top: 10px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   width: 100px;
+}
